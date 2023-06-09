@@ -1,2 +1,0 @@
-MYSQL_ID='root'
-MYSQL_PASSWORD='qwer1234'
