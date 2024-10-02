@@ -15,7 +15,7 @@ def write_to_csv(dict_data):
     
     filename = 'companies.csv'
     
-    with open(filename, 'w', newline='') as output_file:
+    with open(filename, 'w', newline='', encoding='utf-8-sig') as output_file:
         dict_writer = csv.DictWriter(output_file, keys)
         dict_writer.writeheader()
         dict_writer.writerows(dict_data)

@@ -9,7 +9,6 @@ Created on Thu Jun  8 14:06:53 2023
 import os
 
 from mysql import connector
-from dotenv import load_dotenv
 
 
 #load_dotenv()

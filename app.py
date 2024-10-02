@@ -19,7 +19,7 @@ from write_to_csv import write_to_csv
 #from db_connect import insert_into_db, select_from_db
 
 
-result_set = web_scraper(400)
+result_set = web_scraper(2)
 print(result_set)
 
 result_file = write_to_csv(result_set)
